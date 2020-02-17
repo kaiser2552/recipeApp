@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Recipe App</string>
+    <string name="title_activity_list_recipe">ListRecipeActivity</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Kaiser</string>
+    <string name="nav_header_subtitle">kaiser@enclave.vn</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">All Recipe</string>
+    <string name="menu_recipe">Recipe</string>
+    <string name="hint_recipe_name">Recipe Name</string>
+    <string name="hint_recipe_link">Recipe Image Link</string>
+    <string name="text_recipe_type">Recipe Type</string>
+
+    <string name="add_recipe">Add new Recipe</string>
+    <string name="edit_recipe">Edit Recipe</string>
+
+    <string-array name="recipe_type">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+
+    <string name="selected_item">Selected: </string>
+</resources>
