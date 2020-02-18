@@ -14,15 +14,30 @@
     <string name="hint_recipe_name">Recipe Name</string>
     <string name="hint_recipe_link">Recipe Image Link</string>
     <string name="text_recipe_type">Recipe Type</string>
+    <string name="hint_recipe_ingredients">Recipe Ingredients</string>
 
     <string name="add_recipe">Add new Recipe</string>
     <string name="edit_recipe">Edit Recipe</string>
-
-    <string-array name="recipe_type">
-        <item>Breakfast</item>
-        <item>Lunch</item>
-        <item>Dinner</item>
-    </string-array>
-
     <string name="selected_item">Selected: </string>
+
+    <string name="ingredients">Recipe Ingredients</string>
+    <string name="steps_detail">Step detail</string>
+    <string name="go_back">Go Back</string>
+    <string name="remove">Remove</string>
+    <string name="edit">Edit</string>
+
+    <string name="label_add_new_recipe">Add New Recipe</string>
+    <string name="label_list_recipes">List Recipes</string>
+    <string name="label_recipe_detail">Recipe Detail</string>
+    <string name="label_add">Add</string>
+    <string name="message_add_success">Add Recipe Successful!</string>
+    <string name="message_add_fail">Add Recipe Fail!</string>
+
+    <string name="message_remove_success">Remove Recipe Successful!</string>
+    <string name="message_remove_fail">Remove Recipe Fail!</string>
+
+    <string name="message_update_success">Update Recipe Successful!</string>
+    <string name="message_update_fail">Update Recipe Fail!</string>
+
+    <string name="label_edit_recipe">Edit Recipe</string>
 </resources>

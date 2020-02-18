@@ -1,21 +1,27 @@
 package com.kaiser.recipeapp.model
 
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
+
+@Parcelize
 data class Recipe(
     var recipeName: String,
     var recipeImageURL: String,
     var recipeType: RecipeType,
-    var recipeIngredients: List<Ingredient>,
-    var recipeStep: List<Step>
-)
+    var recipeIngredients: Ingredient,
+    var recipeStep: Step
+) : Parcelable
 
+@Parcelize
 data class Ingredient(
-    var ingredientName: String
-)
+    var ingredients: String
+) : Parcelable
 
+@Parcelize
 data class Step(
     var stepDescription: String
-)
+) : Parcelable
 
-data class RecipeType(
-    var typeName: String
-)
+enum class RecipeType(val typeName: String) {
+    Breakfast("Breakfast"), Lunch("Lunch"), Dinner("Dinner")
+}
